@@ -60,10 +60,7 @@ Dự án này xây dựng một trang web đơn giản với 3 nút bấm, mỗi
 ## 📂 Cấu trúc thư mục
 
 /
-├── index.html # File HTML chứa cấu trúc trang web
-├── style.css # File CSS chứa toàn bộ style
-└── script.js # File JavaScript chứa logic tương tác
-
+/ ├── index.html ├── style.css └── script.js
 
 ---
 
