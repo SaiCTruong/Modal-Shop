@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>3 Modals Bán Hàng</title>
+  </head>
+  <body>
+    <button class="show-modal" data-target="#modal-sale">
+      Ưu đãi Giảm giá
+    </button>
+    <button class="show-modal" data-target="#modal-new">Sản phẩm mới</button>
+    <button class="show-modal" data-target="#modal-support">Hỗ trợ</button>
+
+    <div id="modal-sale" class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>🔥 Ưu đãi Giảm giá 30%!</h1>
+      <p>
+        ✨ TRI ÂN KHÁCH HÀNG CUỐI NĂM - SĂN SALE KHỦNG! ✨
+        <br /><br />
+        Nhân dịp cuối năm, chúng tôi mang đến chương trình khuyến mãi lớn nhất:
+        Tiết kiệm ngay 30% cho tất cả các sản phẩm trong Danh mục A.
+        <br /><br />
+        Đây là cơ hội vàng để tự thưởng cho bản thân sau một năm nỗ lực hoặc
+        chuẩn bị những món quà ý nghĩa cho người thân yêu.
+        <br /><br />
+        ⏰ Ưu đãi kết thúc vào 23:59 ngày 31/12/202x.
+        <br /><br />
+        🛒 Khám phá bộ sưu tập và nhận ưu đãi ngay!
+      </p>
+    </div>
+
+    <div id="modal-new" class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>✨ Sản phẩm Mới về!</h1>
+      <p>
+        ✨ TRÌNH LÀNG BỘ SƯU TẬP MỚI: KHẲNG ĐỊNH PHONG CÁCH RIÊNG ✨
+        <br /><br />
+        Vượt qua mọi giới hạn, bộ sưu tập mới nhất của chúng tôi đã chính thức
+        ra mắt.
+        <br /><br />
+        Mỗi sản phẩm là một tác phẩm nghệ thuật, là sự kết hợp tinh tế giữa
+        thiết kế độc đáo và chất liệu thượng hạng. Đây không chỉ là những món
+        đồ, mà còn là tuyên ngôn cho phong cách và đẳng cấp của bạn.
+        <br /><br />
+        Hãy là người tiên phong dẫn đầu xu hướng.
+        <br /><br />
+        👉 Khám phá ngay để cảm nhận sự khác biệt!
+      </p>
+    </div>
+
+    <div id="modal-support" class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>💬 Cần Hỗ trợ?</h1>
+      <p>
+        Dù bạn có bất kỳ thắc mắc nào về sản phẩm, cần tư vấn chọn lựa, hay đơn
+        giản là muốn tìm hiểu thêm, đừng ngần ngại liên hệ với chúng tôi.
+        <br /><br />
+        Đội ngũ chuyên gia của chúng tôi luôn trực tuyến 24/7 để đảm bảo bạn có
+        được trải nghiệm mua sắm hài lòng nhất.
+        <br /><br />
+        Kết nối với chúng tôi qua:
+        <br /><br />
+        📞 Hotline 24/7: <strong>1800-xxxx</strong> (Miễn phí cước gọi)
+        <br /><br />
+        📧 Hoặc, để lại tin nhắn và chúng tôi sẽ phản hồi ngay lập tức
+      </p>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
