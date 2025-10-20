@@ -59,14 +59,12 @@ Dự án này xây dựng một trang web đơn giản với 3 nút bấm, mỗi
 
 ## 📂 Cấu trúc thư mục
 
-## 📂 Cấu trúc thư mục
-
+```
 / 
 ├── index.html 
-├── style.css 
-└── script.js
-
-
+├── style.css
+└── script.js 
+``` 
 ---
 
 ## ✍️ Tác giả
