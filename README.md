@@ -8,6 +8,11 @@
 
 Dự án này xây dựng một trang web đơn giản với 3 nút bấm, mỗi nút sẽ mở một cửa sổ modal khác nhau với nội dung liên quan đến bán hàng (Khuyến mãi, Sản phẩm mới, Hỗ trợ). Người dùng có thể đóng modal bằng nhiều cách khác nhau, mang lại trải nghiệm mượt mà và thân thiện.
 
+## 🚀 Live Demo
+
+Bạn có thể xem và tương tác trực tiếp với các modal này trên trình duyệt:
+
+**👉 [Xem Live Demo tại đây!](https://saictruong.github.io/Modal-Shop/) 👈**
 ---
 
 ## ✨ Tính năng nổi bật
@@ -16,7 +21,7 @@ Dự án này xây dựng một trang web đơn giản với 3 nút bấm, mỗi
 * **🌗 Chế độ Sáng & Tối (Dark Mode) tự động:** Giao diện tự động chuyển đổi giữa nền sáng và tối dựa trên cài đặt hệ thống của người dùng (`prefers-color-scheme`).
 * **📱 Responsive Design:** Tự động điều chỉnh bố cục để hiển thị tốt trên các thiết bị di động.
 * **🖱️ Tương tác Đa dạng:** Người dùng có thể đóng modal bằng 3 cách:
-    * Nhấn vào nút dấu `&times;`.
+    * Nhấn vào nút dấu `&times;` (với chữ x).
     * Nhấn vào lớp phủ mờ (overlay) bên ngoài.
     * Nhấn phím `Escape` trên bàn phím.
 * **✍️ CSS Nâng cao:** Sử dụng pseudo-element (`::before`) để tạo ra một "header ảo" mà không cần thêm thẻ HTML, giữ cho cấu trúc gọn gàng.
